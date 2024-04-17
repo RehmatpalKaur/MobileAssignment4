@@ -18,3 +18,4 @@ describe('Calculator', () => {
     expect(Calculator.calculateTip(-100, 0.20, false)).toEqual(-20);
   });
 });
+//assign

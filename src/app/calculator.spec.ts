@@ -14,4 +14,5 @@ describe('Calculator', () => {
     const calculator = new Calculator(100, 0.15, true);
     expect(calculator.calculateTip()).toBeGreaterThan(15);
   });
-})
+}
+//assign
