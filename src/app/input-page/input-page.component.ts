@@ -19,3 +19,4 @@ export class InputPageComponent {
     this.router.navigate(['/output']);
   }
 }
+//push

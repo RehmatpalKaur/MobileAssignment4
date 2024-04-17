@@ -11,7 +11,7 @@ describe('InputPageComponent', () => {
       declarations: [InputPageComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(InputPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,4 @@ describe('InputPageComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+//push
