@@ -11,7 +11,7 @@ describe('OutputPageComponent', () => {
       declarations: [OutputPageComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(OutputPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,4 @@ describe('OutputPageComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+//assign

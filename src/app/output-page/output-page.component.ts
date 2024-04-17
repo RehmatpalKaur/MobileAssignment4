@@ -14,3 +14,4 @@ export class OutputPageComponent {
     this.router.navigate(['/input']);
   }
 }
+//assign
