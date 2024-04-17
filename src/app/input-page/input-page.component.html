@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Tip Calculator</h2>
+  <form (ngSubmit)="calculateTip()">
+    <mat-form-field appearance="fill">
+      <mat-label>Cost of Service</mat-label>
+      <input matInput type="number" [(ngModel)]="costOfService" name="costOfService" required>
+    </mat-form-field>
+
+    <label>Service Quality:</label>
+    <mat-radio-group [(ngModel)]="serviceQuality" name="serviceQuality">
+      <mat-radio-button value="0.15">Okey - 15%</mat-radio-button>
+      <mat-radio-button value="0.18">Good - 18%</mat-radio-button>
+      <mat-radio-button value="0.20">Excellent - 20%</mat-radio-button>
+    </mat-radio-group>
+
+    <mat-checkbox [(ngModel)]="roundUp" name="roundUp">Round up tip</mat-checkbox>
+
+    <button mat-raised-button color="primary" type="submit">Calculate</button>
+  </form>
+</div>

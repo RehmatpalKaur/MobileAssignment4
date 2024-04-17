@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Tip Calculation Results</h2>
+  <p><strong>Cost of Service:</strong> {{ tipCalculatorService.costOfService | currency }}</p>
+  <p><strong>Service Quality:</strong> {{ (tipCalculatorService.serviceQuality * 100).toFixed(0) }}%</p>
+  <p><strong>Tip Amount:</strong> {{ tipCalculatorService.tip | currency }}</p>
+  <p><strong>Total Bill:</strong> {{ (tipCalculatorService.costOfService + tipCalculatorService.tip) | currency }}</p>
+  <button mat-raised-button color="accent" (click)="goBack()">Calculate Again</button>
+</div>
